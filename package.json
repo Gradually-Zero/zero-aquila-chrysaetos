@@ -2,7 +2,13 @@
   "name": "zero-aquila-chrysaetos",
   "displayName": "Aquila Chrysaetos",
   "description": "Just do something.",
+  "icon": "media/aquila_chrysaetos_128x128.png",
+  "license": "MIT",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gradually-Zero/zero-aquila-chrysaetos"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -12,6 +18,35 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
+    "snippets": [
+      {
+        "path": "./snippets/alpha.code-snippets"
+      },
+      {
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "path": "./snippets/typescript.code-snippets"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "editor.action.insertSnippet",
+        "key": "shift+alt+p",
+        "when": "editorTextFocus",
+        "args": {
+          "name": "ZAC Snippet: Print to recognizable comment"
+        }
+      },
+      {
+        "command": "editor.action.insertSnippet",
+        "key": "shift+alt+t",
+        "when": "editorTextFocus",
+        "args": {
+          "name": "ZAC Snippet: Print to import type"
+        }
+      }
+    ],
     "commands": [
       {
         "command": "zero-aquila-chrysaetos.helloWorld",
@@ -25,7 +60,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "pnpm run compile && pnpm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "clear": "sh ./clear.sh"
   },
   "devDependencies": {
     "@types/vscode": "^1.96.0",
