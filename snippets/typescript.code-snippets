@@ -1,0 +1,10 @@
+{
+    "ZAC Snippet: Print to import type": {
+        "scope": "typescript,typescriptreact",
+        "prefix": "0.t",
+        "body": [
+            "import type $2 from '$1';$0",
+        ],
+        "description": "导入类型"
+    }
+}
