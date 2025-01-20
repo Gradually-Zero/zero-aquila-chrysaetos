@@ -2,11 +2,11 @@
     "ZAC Snippet: Print to console": {
         "scope": "javascript,typescript,javascriptreact,typescriptreact",
         "prefix": [
-            "0.clg",
-            "clg"
+            "clg",
+            "0.clg"
         ],
         "body": [
-            "console.log(\"$RELATIVE_FILEPATH $RANDOM_HEX ${1:$CLIPBOARD}\", ${1:$CLIPBOARD});$0"
+            "console.log(\"${RELATIVE_FILEPATH/[\\\\]/\\//g} $RANDOM_HEX ${1:$CLIPBOARD}\", ${1:$CLIPBOARD});$0"
         ],
         "description": "log 打印"
     }

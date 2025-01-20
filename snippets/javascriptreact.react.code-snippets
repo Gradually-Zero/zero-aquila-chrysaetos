@@ -1,0 +1,13 @@
+{
+    "ZAC Snippet: React useState": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": [
+            "useState",
+            "0.us"
+        ],
+        "body": [
+            "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState(${2:initialState});$0"
+        ],
+        "description": "React useState"
+    }
+}
