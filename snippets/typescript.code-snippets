@@ -1,7 +1,7 @@
 {
     "ZAC Snippet: Print to import type": {
         "scope": "typescript,typescriptreact",
-        "prefix": "0.t",
+        "prefix": "imt",
         "body": [
             "import type $2 from '$1';$0",
         ],

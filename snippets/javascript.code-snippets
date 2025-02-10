@@ -9,5 +9,25 @@
             "console.log(\"${RELATIVE_FILEPATH/[\\\\]/\\//g} $RANDOM_HEX ${1:$CLIPBOARD}\", ${1:$CLIPBOARD});$0"
         ],
         "description": "log 打印"
+    },
+    "ZAC Snippet: Print to import": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": [
+            "imf"
+        ],
+        "body": [
+            "import $2 from '$1';$0",
+        ],
+        "description": "导入"
+    },
+    "ZAC Snippet: Print to export": {
+        "scope": "javascript,typescript,javascriptreact,typescriptreact",
+        "prefix": [
+            "exf"
+        ],
+        "body": [
+            "export { $2 } from '$1';$0",
+        ],
+        "description": "导出"
     }
 }
