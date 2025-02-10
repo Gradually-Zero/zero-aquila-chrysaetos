@@ -4,7 +4,22 @@ All notable changes to the "zero-aquila-chrysaetos" extension will be documented
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.0.1] - 2025-01-20
+## [0.0.3] - 2025-02-11
+
+### Added
+
+#### Snippet
+
+- import syntax
+- export syntax
+
+### Fixed
+
+#### Snippet
+
+- modify import type prefix
+
+## [0.0.2] - 2025-01-20
 
 ### Added
 
