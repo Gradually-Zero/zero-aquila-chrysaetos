@@ -5,7 +5,7 @@
   "description": "Just do something.",
   "icon": "media/aquila_chrysaetos_128x128.png",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/Gradually-Zero/zero-aquila-chrysaetos"
