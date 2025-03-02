@@ -16,7 +16,7 @@
             "imf"
         ],
         "body": [
-            "import $2 from '$1';$0",
+            "import ${2:what} from '${1:where}';$0",
         ],
         "description": "导入"
     },
