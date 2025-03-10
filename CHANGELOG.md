@@ -4,6 +4,14 @@ All notable changes to the "zero-aquila-chrysaetos" extension will be documented
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.5] - 2025-03-10
+
+### Changed
+
+#### Snippet
+
+- log 打印调整
+
 ## [0.0.4] - 2025-03-02
 
 ### Fixed
