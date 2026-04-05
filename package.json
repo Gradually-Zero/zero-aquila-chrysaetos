@@ -56,6 +56,20 @@
         "command": "zero-aquila-chrysaetos.helloWorld",
         "title": "Hello World"
       }
+    ],
+    "themes": [
+      {
+        "id": "keep VSC Dark+",
+        "label": "Aquila Dark+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_plus.json"
+      },
+      {
+        "id": "keep VSC Dark",
+        "label": "Aquila Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_vs.json"
+      }
     ]
   },
   "scripts": {
@@ -65,7 +79,7 @@
     "pretest": "pnpm run compile && pnpm run lint",
     "lint": "eslint src",
     "test": "vscode-test",
-    "clear": "sh ./clear.sh"
+    "clean": "sh ./clean.sh"
   },
   "devDependencies": {
     "@types/vscode": "^1.96.0",
