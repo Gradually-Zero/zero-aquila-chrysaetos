@@ -4,6 +4,12 @@ All notable changes to the "zero-aquila-chrysaetos" extension will be documented
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.7] - 2026-04-06
+
+### Added
+
+- keep VS Code theme
+
 ## [0.0.6] - 2025-03-27
 
 ### Changed
